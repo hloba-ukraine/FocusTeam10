@@ -1,0 +1,18 @@
+/* Mobile-menu Styles */
+@media screen and (min-width: 1279.98px) {
+  .js-menu-container {
+    display: none;
+  }
+}
+.menu-toggle-burger {
+}
+.menu-toggle {
+}
+.mobile-menu-background {
+}
+.close-icon {
+}
+.mobile-menu-list {
+}
+.mobile-menu-item {
+}
