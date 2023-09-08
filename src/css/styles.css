@@ -1,25 +1,223 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
-
+/*Basis styles*/
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --black: #121212;
+  --brown: #bea69e;
+  --white: #ffffff;
+}
+body {
+}
+a {
+  text-decoration: none;
+}
+.main-background {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+}
+/* Header Styles */
+.header-section {
+}
+.nav-header {
+}
+.logo-header {
+}
+.logo-icon {
+}
+.nav-list {
+}
+.nav-list-item {
+}
+.nav-link {
+}
+.sign-link {
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+/* Mobile-menu Styles */
+@media screen and (min-width: 1279.98px) {
+  .js-menu-container {
+    display: none;
+  }
+}
+.menu-toggle-burger {
+}
+.menu-toggle {
+}
+.mobile-menu-background {
+}
+.close-icon {
+}
+.mobile-menu-list {
+}
+.mobile-menu-item {
+}
+/* Main styles */
+/* hero */
+.hero-section {
+}
+.hero-title {
+}
+.hero-text {
+}
+.hero-image {
+}
+.hero-list {
+}
+.hero-list-item {
+}
+/* advertisement */
+.advertisement-section {
+}
+.advertisement-title {
+}
+/* about us */
+.about-us-section {
+}
+.about-us-title {
+}
+.title-decoration {
+}
+.about-us-box {
+}
+.about-us-images {
+}
+.about-us-text {
+}
+/* our courses */
+.our-courses-section {
+}
+.our-courses-text-box {
+}
+.our-courses-title {
+}
+.title-decoration {
+}
+.our-courses-text {
+}
+.our-courses-card-box {
+}
+.our-courses-list {
+}
+.our-courses-item {
+}
+/* our mentors */
+.our-mentors-section {
+}
+.our-mentors-title {
+}
+.title-decoration {
+}
+.our-mentors-list {
+}
+.our-mentors-item {
+}
+
+/* sign-up */
+.sign-up-section {
+}
+.sign-up-title {
+}
+.title-decoration {
+}
+.sign-up-form-box {
+}
+.sign-up-form {
+}
+.sign-up-label {
+}
+.sign-up-images-box1 {
+}
+.sign-up-images1 {
+}
+.sign-up-images-box2 {
+}
+.sign-up-images2 {
+}
+
+/* reviews*/
+.reviews-section {
+}
+.reviews-title {
+}
+.reviews-list {
+}
+.reviews-item {
+}
+
+/* Footer Styles */
+.footer-section {
+}
+.footer-logo-and-adress {
+}
+.logo {
+}
+.footer-adress {
+}
+.footer-adress-list {
+}
+.footer-adress-item {
+}
+.adress-tel {
+}
+.footer-adress-text {
+}
+.footer-social-box {
+}
+.footer-social-list {
+}
+.footer-social-item {
+}
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+}
+.footer-form-box {
+}
+.footer-form {
+}
+.footer-label {
+}
+.footer-form-button {
+}
+.footer-text-box {
+}
+.footer-text {
 }
