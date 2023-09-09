@@ -1,18 +1,78 @@
 /* Header Styles */
 .header-section {
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  padding: 20px, 100px, 30px, 100px;
+}
 .nav-header {
+  display: flex;
+  gap: 97px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--black, #121212);
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .logo-header {
   fill: currentColor;
 }
 .logo-icon {
+  fill: white;
 }
+
 .nav-list {
+  display: flex;
+  gap: 28px;
 }
 .nav-list-item {
 }
 .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .sign-link {
+  display: inline-block;
+  min-width: 70px;
+  height: 28px;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.56; /* 155.556% */
+  text-transform: uppercase;
+}
+.logo-sign {
+  display: flex;
+  padding: 16px 84px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #fff;
+
+  margin-right: 0;
+}
+.menu-toggle-burger {
+  min-height: 24px;
+  min-width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+
+  border-radius: 50%;
+  outline: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-toggle-burger {
+    display: none;
+  }
 }
