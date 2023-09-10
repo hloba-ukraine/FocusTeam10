@@ -69,14 +69,12 @@
 @media only screen and (min-width: 1280px) {
   .reviews-carousel {
     width: 530px;
-    height: 216px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .reviews-carousel {
     width: 610px;
-    height: 196px;
   }
 }
 
