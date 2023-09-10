@@ -1,9 +1,35 @@
 /* hero */
 .hero-section {
+  max-width: 335px;
+  width: 100%;
+  background-color: #1d1d1d;
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-left: 20px;
+  margin-bottom: 80px;
 }
 .hero-title {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -1.12px;
+  padding-bottom: 20px;
+}
+
+.hero-title-word {
+  font-style: italic;
+  color: var(--brown);
 }
 .hero-text {
+  font-size: 16px;
+  max-width: 295px;
+  line-height: 1.28;
+  padding-bottom: 40px;
+}
+
+.hero-students {
+  padding-bottom: 31px;
 }
 .hero-image {
 }
@@ -11,3 +37,9 @@
 }
 .hero-list-item {
 }
+/* 
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    max-width: 704px;
+  }
+} */
