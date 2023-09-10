@@ -27,8 +27,6 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    padding-top: 50px;
-    padding-bottom: 25px;
     background-image: url('../img/footer/graphic-desk.png');
   }
   .footer-content-wrap {
