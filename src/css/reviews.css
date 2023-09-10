@@ -70,7 +70,13 @@
   .reviews-carousel {
     width: 530px;
     height: 216px;
-    flex-shrink: 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .reviews-carousel {
+    width: 610px;
+    height: 196px;
   }
 }
 
@@ -80,21 +86,7 @@
 @media only screen and (min-width: 768px) {
   .card-header {
     display: flex;
-    gap: 273px;
-    margin-bottom: 20px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .card-header {
-    gap: 163px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .card-header-2 {
-    display: flex;
-    gap: 156px;
+    justify-content: space-between;
     margin-bottom: 20px;
   }
 }
