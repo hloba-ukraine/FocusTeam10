@@ -14,6 +14,16 @@
   /* Temporary margin */
   margin-top: 80px;
 }
+
+@media only screen and (min-width: 768px) {
+  .reviews-title {
+    font-size: 48px;
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+}
+
 .owl-carousel {
 }
 .owl-carousel1 {
@@ -31,10 +41,39 @@
   /* Temporary margin */
   margin-bottom: 40px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .reviews-carousel {
+    width: 640px;
+    height: 196px;
+    flex-shrink: 0;
+
+    margin: 0 auto;
+
+    /* Temporary margin */
+    margin-bottom: 40px;
+  }
+}
+
+.card-header {
+}
+
+@media only screen and (min-width: 768px) {
+  .card-header {
+    display: flex;
+    gap: 273px;
+    margin-bottom: 20px;
+  }
+}
+
 .name-card {
   display: flex;
   gap: 10px;
   margin-bottom: 4px;
+}
+
+.persons-image {
+  border-radius: 100px;
 }
 
 .name-card-div {
@@ -64,11 +103,22 @@
 
 .reviews-carousel-points-list {
   display: flex;
+  gap: 4px;
   margin-bottom: 20px;
 }
 .reviews-points-list-item {
   background-color: aqua;
+  height: 16px;
+  width: 16px;
 }
+
+@media only screen and (min-width: 768px) {
+  .reviews-points-list-item {
+    height: 20px;
+    width: 20px;
+  }
+}
+
 .reviews-points-list-svg {
 }
 
@@ -80,6 +130,14 @@
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews-carousel-descr {
+    font-size: 16px;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+  }
 }
 
 @media only screen and (max-width: 1279.98px) {
