@@ -7,6 +7,13 @@
 }
 .sign-up-left {
 }
+
+@media only screen and (min-width: 768px) {
+  .sign-up-left {
+    width: 480px;
+  }
+}
+
 .sign-up-title {
   color: var(--white);
   font-size: 28px;
@@ -14,6 +21,16 @@
   line-height: 32px;
   margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+  .sign-up-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+}
+
 .title-decoration {
   color: var(--brown);
 }
@@ -22,6 +39,13 @@
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 41px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sign-up-descr {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 .sign-up-form {
   display: flex;
@@ -71,6 +95,12 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .sign-up-btn {
+    font-size: 18px;
+  }
+}
+
 .sign-up-btn:hover,
 .sign-up-btn:focus {
   background-color: #1d1d1d;
@@ -83,6 +113,14 @@
   line-height: 16px;
   margin-bottom: 80px;
 }
+
+@media only screen and (min-width: 768px) {
+  .sign-up-submit {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 .privacy-policy-link {
   text-decoration-line: underline;
 }
