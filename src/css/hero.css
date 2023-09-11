@@ -15,7 +15,7 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 1.1;
-  letter-spacing: -1.12px;
+  /* letter-spacing: -1.12px; */
   padding-bottom: 20px;
 }
 
@@ -27,7 +27,6 @@
   font-size: 16px;
   max-width: 295px;
   line-height: 1.28;
-  letter-spacing: -0.04em;
   padding-bottom: 40px;
 }
 
@@ -40,7 +39,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: -0.04em;
+  /* letter-spacing: -0.04em; */
   padding-top: 4px;
 }
 .hero-icon {
@@ -79,7 +78,7 @@
   font-weight: 500px;
   font-size: 16px;
   line-height: 1.12;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .img-students {
   width: 107px;
@@ -87,9 +86,9 @@
 }
 
 .hero-image {
-  padding-left: 38px;
-  width: 258px;
-  height: 314px;
+  /* padding-left: 38px; */
+  max-width: 258px;
+  margin: 0 auto;
 }
 .hero-list {
 }
@@ -107,12 +106,12 @@
   .hero-title {
     max-width: 517px;
     font-size: 60px;
-    line-height: 1.06;
+    /* line-height: 1.06; */
   }
 
   .hero-text {
     font-size: 14px;
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
     max-width: 418px;
   }
 
@@ -120,19 +119,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-width: 229px;
   }
 
   .text-students {
-    width: 82px;
-    font-size: 16px;
+    max-width: 82px;
+    /* font-size: 16px; */
     line-height: 1.25;
-    padding-left: 12px;
   }
+
   .hero-icon {
   }
 
   .hero-icon-star {
-    margin-left: 40px;
   }
 
   .hero-icon-star-1 {
@@ -141,19 +140,17 @@
   }
 
   .hero-midle {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    padding-bottom: 41px;
+    padding-bottom: 40px;
   }
 
   .hero-midle-part {
   }
 
   .text-rew {
-    padding-bottom: 8px;
     font-size: 16px;
     line-height: 1.25;
+    padding-bottom: 8px;
   }
 
   .text-rew-bottom {
@@ -161,12 +158,67 @@
   }
 
   .img-students {
-    max-width: 135px;
+    width: 135px;
+    height: 54px;
     margin-right: 12px;
   }
 
   .hero-image {
-    width: 393px;
-    height: 494px;
+    max-width: 393px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-section {
+    max-width: 1081px;
+    max-height: 600px;
+    margin-bottom: 150px;
+    padding: 80px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .hero-title {
+    max-width: 563px;
+    max-height: 204px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 1.06;
+  }
+
+  .hero-text {
+    max-width: 418px;
+    padding-bottom: 136px;
+  }
+
+  .hero-students {
+  }
+
+  .text-students {
+    letter-spacing: -0.64px;
+  }
+  .hero-icon {
+  }
+
+  .hero-icon-star {
+  }
+
+  .hero-icon-star-1 {
+  }
+
+  .hero-midle {
+    padding-bottom: 50px;
+  }
+
+  .text-rew {
+  }
+
+  .img-students {
+  }
+
+  .hero-image {
+    max-width: 397px;
+    /* background-position: right bottom; */
   }
 }
