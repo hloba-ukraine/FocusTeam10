@@ -2,13 +2,11 @@
 .reviews-section {
 }
 .reviews-title {
-  color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  color: var(--white);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
-  letter-spacing: -1.12px;
+  line-height: 32px;
   margin-bottom: 40px;
 
   /* Temporary margin */
@@ -18,8 +16,7 @@
 @media only screen and (min-width: 768px) {
   .reviews-title {
     font-size: 48px;
-    line-height: 54px; /* 112.5% */
-    letter-spacing: -1.92px;
+    line-height: 54px;
     margin-bottom: 50px;
   }
 }
@@ -44,25 +41,16 @@
 .reviews-carousel {
   width: auto;
   height: auto;
-  flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
-
-  /* Temporary margin */
-  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
   .reviews-carousel {
     width: 100%;
     height: auto;
-    flex-shrink: 0;
-
     margin: 0 auto;
-
-    /* Temporary margin */
-    margin-bottom: 40px;
   }
 }
 
@@ -106,22 +94,17 @@
 }
 
 .name-card-div-title {
-  color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  color: var(--white);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 24px;
 }
 
 .name-card-div-descr {
   color: rgba(255, 255, 255, 0.5);
-  font-family: 'DM Sans', sans-serif;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
-  letter-spacing: -0.24px;
+  line-height: 16px;
 }
 
 .reviews-carousel-points-list {
@@ -146,20 +129,15 @@
 }
 
 .reviews-carousel-descr {
-  color: #fff;
-  font-family: 'DM Sans', sans-serif;
+  color: var(--white);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px; /* 128.571% */
-  letter-spacing: -0.28px;
+  line-height: 18px;
 }
 
 @media only screen and (min-width: 768px) {
   .reviews-carousel-descr {
     font-size: 16px;
-    line-height: 20px; /* 125% */
-    letter-spacing: -0.32px;
+    line-height: 20px;
   }
 }
 
