@@ -1,5 +1,8 @@
 /* about us */
 @media screen {
+  .about-us-section {
+    padding-bottom: 80px;
+  }
   .about-us-title {
     color: var(--whithe);
     font-size: 28px;
@@ -12,9 +15,7 @@
   .title-decoration {
     color: var(--brown);
   }
-  .about-us-box {
-    margin-bottom: 80px;
-  }
+
   .about-us-images-box {
     max-width: 335px;
     height: 209px;
@@ -42,11 +43,14 @@
     color: var(--white);
     font-size: 14px;
     line-height: 1.28;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .about-us-section {
+    padding-bottom: 100px;
+  }
   .about-us-title {
     font-size: 48px;
     line-height: 1.12;
@@ -66,9 +70,6 @@
       background-image: url(../img/Rectangle6-tablet@2x.jpg);
     }
   }
-  .about-us-box {
-    margin-bottom: 100px;
-  }
   .about-us-wrapper {
     display: flex;
     flex-direction: row;
@@ -83,10 +84,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .about-us-section {
+    padding-bottom: 150px;
+  }
   .about-us-box {
     display: flex;
     gap: 40px;
-    margin-bottom: 150px;
   }
   .about-us-images-box {
     width: 488px;
