@@ -1,35 +1,30 @@
 /* our mentors */
 .our-mentors-section {
-  background-color: var(--black);
   padding-bottom: 80px;
 }
 .our-mentors-title {
-  color: var(--white);
-  font-family: 'DM Sans';
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 0.9;
-  letter-spacing: -1.12px;
+  letter-spacing: -0.04em;
 }
 .title-decoration {
-  color: var(--brown);
-  font-family: 'DM Sans';
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 0.9;
-  letter-spacing: -1.12px;
+  letter-spacing: -0.04em;
 }
-.our-mentors-list {
-  list-style: none;
-}
+
 @media screen and (min-width: 768px) {
   .our-mentors-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 93px;
+    column-gap: 100px;
+    row-gap: 93px;
+    flex-basis: calc((100% - 100px) / 2);
   }
 
   .mentor-experience {
@@ -54,7 +49,7 @@
     font-size: 48px;
     font-weight: 500;
     line-height: 54px;
-    letter-spacing: -1.92px;
+    letter-spacing: -0.04em;
   }
   .mentors-name {
     font-size: 28px;
@@ -65,7 +60,7 @@
   .mentor-experience {
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: -0.28px;
+    letter-spacing: -0.02em;
   }
   .our-mentors-section {
     padding-bottom: 150px;
@@ -85,7 +80,7 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 16px; /* 133.333% */
-  letter-spacing: -0.24px;
+  letter-spacing: -0.02em;
 }
 .photo-mentor {
   border-radius: 200px;
