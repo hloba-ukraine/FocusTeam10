@@ -5,6 +5,13 @@
 }
 .sign-up-section {
 }
+
+@media only screen and (min-width: 1280px) {
+  .sign-up-section {
+    display: flex;
+    gap: 60px;
+  }
+}
 .sign-up-left {
 }
 
@@ -127,6 +134,35 @@
 .sign-up-right {
   display: none;
 }
+
+@media only screen and (min-width: 1280px) {
+  .sign-up-right {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign-up-image-div-1 {
+    width: 180px;
+    height: 288px;
+    padding: 76px 19px 62px 19px;
+    border-radius: 1000px;
+    background: #bea69e;
+    margin-top: 252px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign-up-image-div-2 {
+    width: 340px;
+    height: 540px;
+    padding: 156px 50px 88px 50px;
+    border-radius: 1000px;
+    background: #1d1d1d;
+  }
+}
+
 .sign-up-images1 {
 }
 .sign-up-images2 {
