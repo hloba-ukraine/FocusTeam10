@@ -35,7 +35,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-
         <symbol id="icon-bi_camera-fill" viewBox="0 0 32 32">
             <path
                 d="M21 17c0 1.326-0.527 2.598-1.464 3.536s-2.209 1.464-3.536 1.464-2.598-0.527-3.536-1.464c-0.938-0.938-1.464-2.21-1.464-3.536s0.527-2.598 1.464-3.536c0.938-0.938 2.209-1.464 3.536-1.464s2.598 0.527 3.536 1.464c0.938 0.938 1.464 2.209 1.464 3.536z">

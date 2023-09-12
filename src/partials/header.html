@@ -1,18 +1,38 @@
 <!--header-->
-<header class="main-background" id="header">
-  <div class="header-section container">
+<header class="header-section main-background" id="header">
+  <div class="header-container container">
     <nav class="nav-header">
       <a class="logo-header" href="">
         <svg class="logo-icon" width="123" height="16">
           <use href="./img/symbol-defs.svg#icon-logo"></use>
         </svg>
       </a>
+      <div class="mobile-wrapper">
+        <div class="sign-wrapper">
+          <a class="sign-wrapper-link" href="#sign-up">
+            <svg class="sign-icon" width="16" height="16">
+              <use href="./img/symbol-defs.svg#icon-bi_camera-fill"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="burger-wrapper">
+          <button
+            class="menu-toggle-burger js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="burger-menu">
+              <use href="./img/symbol-defs.svg#icon-Nav"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
       <ul class="nav-list">
         <li class="nav-list-item">
           <a class="nav-link" href="#about-us">About us</a>
         </li>
         <li class="nav-list-item">
-          <a class="" href="#our-courses">Our courses</a>
+          <a class="nav-link" href="#our-courses">Our courses</a>
         </li>
         <li class="nav-list-item">
           <a class="nav-link" href="#our-mentors">Our mentors</a>
@@ -25,17 +45,8 @@
         </li>
       </ul>
     </nav>
-    <div class="">
-      <a class="sign-link" href="#sign-up">Sign up </a>
+    <div class="logo-sign">
+      <a class="sign-link" href="#sign-up">Sign up</a>
     </div>
-    <button
-      class="menu-toggle-burger js-open-menu"
-      aria-expanded="false"
-      aria-controls="mobile-menu"
-    >
-      <svg class="" width="" height="">
-        <use href=""></use>
-      </svg>
-    </button>
   </div>
 </header>
