@@ -9,32 +9,37 @@
         message and we'll get back to you shortly.
       </p>
 
-      <form
-        class="sign-up-form"
-        name="sign-up-form"
-        autocomplete="on"
-        novalidate
-      >
-        <input
-          class="sign-up-input"
-          type="text"
-          name="username"
-          placeholder="Enter your name"
-        />
-        <input
-          class="sign-up-input"
-          type="text"
-          name="email_address"
-          placeholder="Enter your email"
-        />
-        <textarea
-          class="sign-up-textarea"
-          name="message"
-          rows="6"
-          placeholder="Message"
-        ></textarea>
+      <form class="sign-up-form" name="sign-up-form" autocomplete="on">
+        <label class="label-name" for="username">
+          <input
+            class="sign-up-input"
+            type="text"
+            name="username"
+            placeholder="Enter your name"
+            required
+          />
+        </label>
+        <label class="label-name" for="email_address">
+          <input
+            class="sign-up-input"
+            type="email"
+            name="email_address"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <label class="label-message" for="message">
+          <textarea
+            class="sign-up-textarea"
+            name="message"
+            rows="6"
+            placeholder="Message"
+          ></textarea>
+        </label>
+
+        <button type="submit" class="sign-up-btn">Send</button>
       </form>
-      <button type="submit" class="sign-up-btn">Send</button>
+
       <p class="sign-up-submit">
         By clicking on “Send” button, you agree to our
         <a

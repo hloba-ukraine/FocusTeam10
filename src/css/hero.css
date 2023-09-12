@@ -14,7 +14,7 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 1.1;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-title-word {
@@ -25,7 +25,9 @@
   font-size: 16px;
   max-width: 295px;
   line-height: 1.28;
-  padding-bottom: 40px;
+}
+.hero-info {
+  margin-bottom: 40px;
 }
 
 .hero-students {
@@ -36,13 +38,19 @@
 .box-students {
   display: flex;
   align-items: center;
+  padding-top: 4px;
 }
 .text-students {
   max-width: 67px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-  padding-top: 4px;
+}
+.text-students:hover {
+  color: var(--brown);
+}
+.text-students:active {
+  color: var(--brown);
 }
 
 .hero-icon {
@@ -65,7 +73,8 @@
 }
 
 .hero-icon-star-1 {
-  fill: var(--black);
+  fill: var(--brown);
+  stroke: var(--black);
   width: 20px;
   height: 20px;
 }
@@ -194,7 +203,9 @@
 
   .hero-text {
     max-width: 418px;
-    padding-bottom: 136px;
+  }
+  .hero-info {
+    margin-bottom: 136px;
   }
 
   .text-students {

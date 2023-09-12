@@ -31,18 +31,18 @@
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: -0.04em;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-title {
     font-size: 48px;
     line-height: 1.12;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .our-courses-title {
-    padding-bottom: 76px;
+    margin-bottom: 76px;
   }
 }
 
@@ -51,7 +51,7 @@
 }
 .our-courses-text {
   font-size: 14px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   line-height: 1.12;
   letter-spacing: -0.02em;
 }
@@ -60,6 +60,7 @@
     font-size: 16px;
     max-width: 381px;
     line-height: 1.25;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -104,7 +105,12 @@
 .our-courses-item-top {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+@media screen and (min-width: 768px) {
+  .our-courses-item-top {
+    margin-bottom: 32px;
+  }
 }
 .our-courses-number {
   color: rgba(255, 255, 255, 0.4);
@@ -130,11 +136,11 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  padding-bottom: 164px;
+  margin-bottom: 164px;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-item-title {
-    padding-bottom: 180px;
+    margin-bottom: 180px;
     max-width: 265px;
   }
 }
