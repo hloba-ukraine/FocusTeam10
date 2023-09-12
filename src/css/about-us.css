@@ -27,11 +27,11 @@
     margin-bottom: 40px;
   }
   .about-us-images {
-    background-image: url(../img/Rectangle6-mobile.jpg);
+    background-image: url(../img/mobuboutus.png);
   }
   @media (min-resolution: 192dpi) {
     .about-us-images {
-      background-image: url(../img/Rectangle6-mobile@2x.jpg);
+      background-image: url(../img/mobaboutus@2x.png);
     }
   }
   .about-us-wrapper {
@@ -62,11 +62,11 @@
     margin-bottom: 50px;
   }
   .about-us-images {
-    background-image: url(../img/Rectangle6-tablet.jpg);
+    background-image: url(../img/tababoutus.png);
   }
   @media (min-resolution: 192dpi) {
     .about-us-images {
-      background-image: url(../img/Rectangle6-tablet@2x.jpg);
+      background-image: url(../img/tababoutus@2x.png);
     }
   }
   .about-us-wrapper {
@@ -97,11 +97,11 @@
     margin-bottom: 0;
   }
   .about-us-images {
-    background-image: url(../img/Rectangle6-desktop.jpg);
+    background-image: url(../img/decstaboutus.png);
   }
   @media (min-resolution: 192dpi) {
     .about-us-images {
-      background-image: url(../img/Rectangle6-desktop@2x.jpg);
+      background-image: url(../img/decstaboutus@2x.png);
     }
   }
   .about-us-wrapper {
