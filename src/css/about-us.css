@@ -1,49 +1,44 @@
 /* about us */
-@media screen {
-  .about-us-section {
-    padding-bottom: 80px;
-  }
-  .about-us-title {
-    color: var(--whithe);
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    text-transform: capitalize;
-    margin-bottom: 40px;
-  }
-  .title-decoration {
-    color: var(--brown);
-  }
+.about-us-section {
+  padding-bottom: 80px;
+}
+.about-us-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.title-decoration {
+  color: var(--brown);
+}
 
-  .about-us-images-box {
-    max-width: 335px;
-    height: 209px;
-    background-size: 335px 209px;
-    border-radius: 1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 40px;
-  }
+.about-us-images-box {
+  max-width: 335px;
+  height: 209px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 40px;
+}
+.about-us-images {
+  background-image: url(../img/mobuboutus.png);
+}
+@media (min-resolution: 192dpi) {
   .about-us-images {
-    background-image: url(../img/mobuboutus.png);
+    background-image: url(../img/mobaboutus@2x.png);
   }
-  @media (min-resolution: 192dpi) {
-    .about-us-images {
-      background-image: url(../img/mobaboutus@2x.png);
-    }
-  }
-  .about-us-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .about-us-text {
-    color: var(--white);
-    font-size: 14px;
-    line-height: 1.28;
-  }
+}
+.about-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-us-text {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.28;
 }
 
 @media screen and (min-width: 768px) {
@@ -55,10 +50,11 @@
     line-height: 1.12;
     margin-bottom: 50px;
   }
+
   .about-us-images-box {
     max-width: 704px;
     height: 340px;
-    background-size: 704px 340px;
+
     margin-bottom: 50px;
   }
   .about-us-images {
@@ -93,7 +89,7 @@
   .about-us-images-box {
     width: 488px;
     height: 340px;
-    background-size: 488px 340px;
+
     margin-bottom: 0;
   }
   .about-us-images {
@@ -120,7 +116,7 @@
   .about-us-images-box {
     width: 544px;
     height: 340px;
-    background-size: 544px 340px;
+
     margin-bottom: 0;
   }
   .about-us-wrapper {

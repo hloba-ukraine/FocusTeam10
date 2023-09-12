@@ -5,6 +5,7 @@
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 80px;
+  --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (min-width: 768px) {
   .our-courses-section {
@@ -18,11 +19,7 @@
     padding-bottom: 150px;
   }
 }
-@media only screen and (min-width: 1440px) {
-  .our-courses-section {
-    max-width: 1240px;
-  }
-}
+
 @media only screen and (min-width: 768px) {
   .our-courses-text-box {
     display: flex;
@@ -30,18 +27,16 @@
   }
 }
 .our-courses-title {
-  color: var(--white);
   font-weight: 500;
   font-size: 28px;
   line-height: 1.14;
-  letter-spacing: -1.12px;
+  letter-spacing: -0.04em;
   padding-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-title {
     font-size: 48px;
     line-height: 1.12;
-    letter-spacing: -1.92px;
     padding-bottom: 50px;
   }
 }
@@ -50,11 +45,7 @@
     padding-bottom: 76px;
   }
 }
-@media only screen and (min-width: 1440px) {
-  .our-courses-title {
-    padding-bottom: 56px;
-  }
-}
+
 .title-decoration {
   color: var(--brown);
 }
@@ -76,11 +67,7 @@
     max-width: 405px;
   }
 }
-@media only screen and (min-width: 1440px) {
-  .our-courses-text {
-    max-width: 565px;
-  }
-}
+
 @media only screen and (min-width: 768px) {
   .our-courses-list {
     display: flex;
@@ -113,11 +100,7 @@
     width: calc((100%-40px) / 3);
   }
 }
-@media only screen and (min-width: 1440px) {
-  .our-courses-item {
-    max-width: 400px;
-  }
-}
+
 .our-courses-item-top {
   display: flex;
   justify-content: space-between;
@@ -133,6 +116,7 @@
   border-radius: 50%;
   border-style: none;
   padding: 6px;
+  transition: background-color var(--transition-dur-func);
 }
 .our-courses-button:hover {
   background-color: var(--brown);
@@ -154,16 +138,11 @@
     max-width: 265px;
   }
 }
-@media only screen and (min-width: 1440px) {
-  .our-courses-item-title {
-    padding-bottom: 200px;
-  }
-}
+
 .out-courses-item-text {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   line-height: 1.28;
-  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   .out-courses-item-text {

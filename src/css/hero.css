@@ -6,7 +6,6 @@
   border-radius: 30px;
   padding-top: 40px;
   padding-left: 20px;
-  margin-bottom: 80px;
 }
 
 .hero-title {
@@ -179,7 +178,7 @@
   .hero-section {
     max-width: 1081px;
     max-height: 600px;
-    margin-bottom: 150px;
+
     padding: 80px 50px 0 50px;
     display: flex;
     flex-direction: column;

@@ -6,17 +6,18 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 0.9;
+  line-height: 1.14;
   letter-spacing: -0.04em;
 }
 .title-decoration {
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: -0.04em;
+  color: var(--brown);
 }
-
+@media only screen and (min-width: 768px) {
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 1.12;
+  }
+}
 @media screen and (min-width: 768px) {
   .our-mentors-list {
     display: flex;
@@ -44,13 +45,7 @@
     align-items: flex-start;
     gap: 93px;
   }
-  .our-mentors-title,
-  .title-decoration {
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -0.04em;
-  }
+
   .mentors-name {
     font-size: 28px;
     font-weight: 500;
@@ -78,9 +73,7 @@
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   font-size: 12px;
-  font-weight: 400;
-  line-height: 16px; /* 133.333% */
-  letter-spacing: -0.02em;
+  line-height: 1.33;
 }
 .photo-mentor {
   border-radius: 200px;
