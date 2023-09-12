@@ -102,11 +102,11 @@
   }
   .about-us-wrapper {
     gap: 20px;
+    padding: 40px 0;
   }
   .about-us-text {
     max-width: 268px;
     font-size: 16px;
-    padding: 40px 0;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -121,9 +121,9 @@
   }
   .about-us-wrapper {
     gap: 40px;
+    padding: 62px 0;
   }
   .about-us-text {
     max-width: 330px;
-    padding: 62px 0;
   }
 }
