@@ -27,7 +27,7 @@
     <div class="headar-hero-bg">
       <!--header-->
 <header class="header-section main-background" id="header">
-  <div class="header-container container">
+  <div class="header-container container" id="menu-scrol">
     <nav class="nav-header">
       <a class="logo-header" href="">
         <svg class="logo-icon" width="123" height="16">
@@ -218,18 +218,20 @@
         level, we have courses to suit your needs and goals.
       </p>
     </div>
-    <div class="our-courses-card-box">
+    <div class="our-courses-card-box" id="card-box-scrol">
       <ul class="our-courses-list">
         <li class="our-courses-item">
           <div class="our-courses-item-top">
             <p class="our-courses-number">01</p>
-            <button class="our-courses-button">
-              <svg class="our-courses-arrow" width="20" height="20">
-                <use
-                  href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-arrow-narrow-up-right"
-                ></use>
-              </svg>
-            </button>
+            <a href="#sign-up">
+              <button class="our-courses-button">
+                <svg class="our-courses-arrow" width="20" height="20">
+                  <use
+                    href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-arrow-narrow-up-right"
+                  ></use>
+                </svg>
+              </button>
+            </a>
           </div>
           <h3 class="our-courses-item-title">Basics of photography</h3>
           <p class="out-courses-item-text">
@@ -240,13 +242,15 @@
         <li class="our-courses-item">
           <div class="our-courses-item-top">
             <p class="our-courses-number">02</p>
-            <button class="our-courses-button">
-              <svg class="our-courses-arrow" width="20" height="20">
-                <use
-                  href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-arrow-narrow-up-right"
-                ></use>
-              </svg>
-            </button>
+            <a href="#sign-up">
+              <button class="our-courses-button">
+                <svg class="our-courses-arrow" width="20" height="20">
+                  <use
+                    href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-arrow-narrow-up-right"
+                  ></use>
+                </svg>
+              </button>
+            </a>
           </div>
           <h3 class="our-courses-item-title">Landscape photography</h3>
           <p class="out-courses-item-text">
@@ -257,13 +261,15 @@
         <li class="our-courses-item">
           <div class="our-courses-item-top">
             <p class="our-courses-number">03</p>
-            <button class="our-courses-button">
-              <svg class="our-courses-arrow" width="20" height="20">
-                <use
-                  href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-arrow-narrow-up-right"
-                ></use>
-              </svg>
-            </button>
+            <a href="#sign-up">
+              <button class="our-courses-button">
+                <svg class="our-courses-arrow" width="20" height="20">
+                  <use
+                    href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-arrow-narrow-up-right"
+                  ></use>
+                </svg>
+              </button>
+            </a>
           </div>
           <h3 class="our-courses-item-title">Portrait photography</h3>
           <p class="out-courses-item-text">
@@ -334,65 +340,75 @@
   </div>
 </section>
 
-      <div class="container sign-up-section">
-  <div class="sign-up-left">
-    <h2 class="sign-up-title">Sign <span class="title-decoration">Up</span></h2>
-    <p class="sign-up-descr">
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
-    </p>
+      <section id="sign-up">
+  <div class="container sign-up-section">
+    <div class="sign-up-left">
+      <h2 class="sign-up-title">
+        Sign <span class="title-decoration">Up</span>
+      </h2>
+      <p class="sign-up-descr">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
 
-    <form class="sign-up-form" name="sign-up-form" autocomplete="on" novalidate>
-      <input
-        class="sign-up-input"
-        type="text"
-        name="username"
-        placeholder="Enter your name"
-      />
-      <input
-        class="sign-up-input"
-        type="text"
-        name="email_address"
-        placeholder="Enter your email"
-      />
-      <textarea
-        class="sign-up-textarea"
-        name="message"
-        rows="6"
-        placeholder="Message"
-      ></textarea>
-    </form>
-    <button type="submit" class="sign-up-btn">Send</button>
-    <p class="sign-up-submit">
-      By clicking on “Send” button, you agree to our
-      <a
-        class="privacy-policy-link"
-        href=""
-        target="_blank"
-        rel="noopener no-referrer"
+      <form
+        class="sign-up-form"
+        name="sign-up-form"
+        autocomplete="on"
+        novalidate
       >
-        Privacy Policy</a
-      >, <br />and allow Promodo to use this information for marketing purposes.
-    </p>
-  </div>
+        <input
+          class="sign-up-input"
+          type="text"
+          name="username"
+          placeholder="Enter your name"
+        />
+        <input
+          class="sign-up-input"
+          type="text"
+          name="email_address"
+          placeholder="Enter your email"
+        />
+        <textarea
+          class="sign-up-textarea"
+          name="message"
+          rows="6"
+          placeholder="Message"
+        ></textarea>
+      </form>
+      <button type="submit" class="sign-up-btn">Send</button>
+      <p class="sign-up-submit">
+        By clicking on “Send” button, you agree to our
+        <a
+          class="privacy-policy-link"
+          href=""
+          target="_blank"
+          rel="noopener no-referrer"
+        >
+          Privacy Policy</a
+        >, <br />and allow Promodo to use this information for marketing
+        purposes.
+      </p>
+    </div>
 
-  <div class="sign-up-right">
-    <div class="sign-up-image-div-1">
-      <img
-        class="sign-up-images1"
-        src="/FocusTeam10/assets/isabella-mendes-4668cdd3.png"
-        alt="camera with a rose background"
-      />
-    </div>
-    <div class="sign-up-image-div-2">
-      <img
-        class="sign-up-images2"
-        src="/FocusTeam10/assets/video-entry-product-ca810bef.png"
-        alt="camera with a black background"
-      />
+    <div class="sign-up-right">
+      <div class="sign-up-image-div-1">
+        <img
+          class="sign-up-images1"
+          src="/FocusTeam10/assets/isabella-mendes-4668cdd3.png"
+          alt="camera with a rose background"
+        />
+      </div>
+      <div class="sign-up-image-div-2">
+        <img
+          class="sign-up-images2"
+          src="/FocusTeam10/assets/video-entry-product-ca810bef.png"
+          alt="camera with a black background"
+        />
+      </div>
     </div>
   </div>
-</div>
+</section>
 
       <section class="main-background" id="reviews">
   <div class="container reviews-section">
@@ -553,7 +569,7 @@
           </li>
         </ul>
 
-        <ul class="footer-nav-list">
+        <ul class="footer-nav-list" id="footer-scrol">
           <li class="footer-link-item">
             <a class="footer-link" href="#about-us">About us</a>
           </li>
@@ -606,5 +622,39 @@
 
     <!--scripts-->
     
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#menu-scrol').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 1000);
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#footer-scrol').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 1000);
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#card-box-scrol').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 1000);
+        });
+      });
+    </script>
   </body>
 </html>
