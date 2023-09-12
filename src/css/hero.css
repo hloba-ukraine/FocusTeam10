@@ -15,7 +15,6 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 1.1;
-  /* letter-spacing: -1.12px; */
   padding-bottom: 20px;
 }
 
@@ -32,45 +31,58 @@
 
 .hero-students {
   max-width: 107px;
+  margin-right: 40px;
 }
 
+.box-students {
+  display: flex;
+  align-items: center;
+}
 .text-students {
   max-width: 67px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-  /* letter-spacing: -0.04em; */
   padding-top: 4px;
 }
+
 .hero-icon {
+  padding-left: 4px;
+  width: 18px;
+  height: 8.66px;
+  fill: #fff;
+  position: absolute;
 }
 
 .hero-icon-star {
-  padding-left: 40px;
-  padding-right: 12px;
+  background-color: var(--brown);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
 }
 
 .hero-icon-star-1 {
-  color: var(--black);
-  width: 44px;
-  height: 44px;
-  background-color: var(--brown);
-  border-radius: 50%;
+  fill: var(--black);
+  width: 20px;
+  height: 20px;
 }
+
 .hero-midle {
   display: flex;
   flex-direction: row;
   padding-bottom: 31px;
 }
 
-.hero-midle-part {
-}
-
 .text-rew {
   opacity: 0.5;
   font-size: 14px;
   line-height: 1.2;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
+  padding-top: 2px;
 }
 
 .text-rew-bottom {
@@ -90,15 +102,10 @@
   max-width: 258px;
   margin: 0 auto;
 }
-.hero-list {
-}
-.hero-list-item {
-}
 
 @media screen and (min-width: 768px) {
   .hero-section {
     max-width: 704px;
-    padding-bottom: 100px;
     padding-top: 64px;
     padding-left: 32px;
   }
@@ -121,7 +128,10 @@
     align-items: center;
     max-width: 229px;
   }
-
+  .box-students {
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .text-students {
     max-width: 82px;
     /* font-size: 16px; */
@@ -129,12 +139,11 @@
   }
 
   .hero-icon {
+    padding-left: 0;
+    position: static;
   }
 
   .hero-icon-star {
-  }
-
-  .hero-icon-star-1 {
     width: 50px;
     height: 50px;
   }
@@ -144,13 +153,11 @@
     padding-bottom: 40px;
   }
 
-  .hero-midle-part {
-  }
-
   .text-rew {
     font-size: 16px;
     line-height: 1.25;
     padding-bottom: 8px;
+    padding-top: 0;
   }
 
   .text-rew-bottom {
@@ -181,7 +188,6 @@
 
   .hero-title {
     max-width: 563px;
-    max-height: 204px;
     font-weight: 500;
     font-size: 64px;
     line-height: 1.06;
@@ -192,33 +198,11 @@
     padding-bottom: 136px;
   }
 
-  .hero-students {
-  }
-
   .text-students {
     letter-spacing: -0.64px;
-  }
-  .hero-icon {
-  }
-
-  .hero-icon-star {
-  }
-
-  .hero-icon-star-1 {
-  }
-
-  .hero-midle {
-    padding-bottom: 50px;
-  }
-
-  .text-rew {
-  }
-
-  .img-students {
   }
 
   .hero-image {
     max-width: 397px;
-    /* background-position: right bottom; */
   }
 }
