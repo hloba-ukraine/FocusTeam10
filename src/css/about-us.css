@@ -1,13 +1,133 @@
 /* about us */
-.about-us-section {
+@media screen {
+  .about-us-section {
+    padding-bottom: 80px;
+  }
+  .about-us-title {
+    color: var(--whithe);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+  .title-decoration {
+    color: var(--brown);
+  }
+
+  .about-us-images-box {
+    max-width: 335px;
+    height: 209px;
+    background-size: 335px 209px;
+    border-radius: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 40px;
+  }
+  .about-us-images {
+    background-image: url(../img/Rectangle6-mobile.jpg);
+  }
+  @media (min-resolution: 192dpi) {
+    .about-us-images {
+      background-image: url(../img/Rectangle6-mobile@2x.jpg);
+    }
+  }
+  .about-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-us-text {
+    color: var(--white);
+    font-size: 14px;
+    line-height: 1.28;
+  }
 }
-.about-us-title {
+
+@media screen and (min-width: 768px) {
+  .about-us-section {
+    padding-bottom: 100px;
+  }
+  .about-us-title {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 50px;
+  }
+  .about-us-images-box {
+    max-width: 704px;
+    height: 340px;
+    background-size: 704px 340px;
+    margin-bottom: 50px;
+  }
+  .about-us-images {
+    background-image: url(../img/Rectangle6-tablet.jpg);
+  }
+  @media (min-resolution: 192dpi) {
+    .about-us-images {
+      background-image: url(../img/Rectangle6-tablet@2x.jpg);
+    }
+  }
+  .about-us-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .about-us-text {
+    max-width: 280px;
+  }
+  .about-us-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
-.title-decoration {
+@media screen and (min-width: 1280px) {
+  .about-us-section {
+    padding-bottom: 150px;
+  }
+  .about-us-box {
+    display: flex;
+    gap: 40px;
+  }
+  .about-us-images-box {
+    width: 488px;
+    height: 340px;
+    background-size: 488px 340px;
+    margin-bottom: 0;
+  }
+  .about-us-images {
+    background-image: url(../img/Rectangle6-desktop.jpg);
+  }
+  @media (min-resolution: 192dpi) {
+    .about-us-images {
+      background-image: url(../img/Rectangle6-desktop@2x.jpg);
+    }
+  }
+  .about-us-wrapper {
+    gap: 20px;
+  }
+  .about-us-text {
+    max-width: 268px;
+    font-size: 16px;
+    padding: 40px 0;
+  }
 }
-.about-us-box {
-}
-.about-us-images {
-}
-.about-us-text {
+@media screen and (min-width: 1440px) {
+  .about-us-box {
+    gap: 50px;
+  }
+  .about-us-images-box {
+    width: 544px;
+    height: 340px;
+    background-size: 544px 340px;
+    margin-bottom: 0;
+  }
+  .about-us-wrapper {
+    gap: 40px;
+  }
+  .about-us-text {
+    max-width: 330px;
+    padding: 62px 0;
+  }
 }
