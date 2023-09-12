@@ -1,8 +1,8 @@
 /* Mobile-menu Styles */
 /* -----------------------------menu mobile---------------------------- */
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
+  min-height: 32px;
+  min-width: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,6 +15,14 @@
   border-radius: 50%;
   outline: none;
 }
+
+@media only screen and (min-width: 768px) {
+  .menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+  }
+}
+
 
 @media (min-width: 1279.98px) {
   .menu-toggle {
@@ -37,14 +45,14 @@
   position: fixed;
   top: 0;
   right: 0;
-  min-width: 55vw;
-  height: 100vh;
-  padding: 180px 20px 20px;
-  background-color: #BEA69E;
-  background-image: url(./img/img.jpg/modal/Rectangle6-modal-mob.jpg);
+  min-width: 218px;
+  height: 100%;
+  padding: 180px 20px;
+  background-color: #bea69e;
+  background-image: url(../img/mobilemobile.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 55vw;
+  /* background-size: ; */
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
@@ -52,29 +60,14 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
   .menu-container {
-    padding: 232px 64px 64px;
-  }
-}
-
-@media (min-device-paxel-ratio: 2),
-(min-resolution: 192),
-(min-resolution: 2dppx) {
-  .menu-container {
-    background-image: url(../img/img.jpg/modal/Rectangle6-modal-mob@2x.jpg);
+    padding: 232px 64px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .menu-container {
-    background-image: url(../img/img.jpg/modal/Rectangle6-modal-tab.jpg);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .menu-container {
-      background-image: url(../img/img.jpg/modal/Rectangle6-modal-tab@2x.jpg);
-    }
+    min-width: 436px;
+    background-image: url(../img/mobilemobile@2x.png)
   }
 }
 
@@ -84,8 +77,8 @@
 
 .menu-container .menu-toggle {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 20px;
+  right: 20px;
   color: #fff;
 }
 
@@ -116,6 +109,15 @@
   text-transform: uppercase;
 }
 
-.strong {
+/* .strong {
+  font-weight: 700;
+} */
+.close-icon {
+  stroke: var(--black);
+  fill: var(--black);
+}
+
+.mobile-menu-link:active {
   font-weight: 700;
 }
+
