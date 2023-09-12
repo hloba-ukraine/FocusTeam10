@@ -7,6 +7,12 @@
   padding-bottom: 80px;
   --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (max-width: 375px) {
+  .our-courses-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .our-courses-section {
     max-width: 704px;
@@ -26,6 +32,7 @@
     justify-content: space-between;
   }
 }
+
 .our-courses-title {
   font-weight: 500;
   font-size: 28px;

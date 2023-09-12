@@ -22,7 +22,7 @@
     <title>Focus.Frame 2.0</title>
   </head>
   <body>
-    <div class="headar-hero-bg">
+    <div class="headar-hero-bg container-bg">
       <load ="partials/header.html" />
 
       <load ="partials/hero.html" />
@@ -84,5 +84,16 @@
         });
       });
     </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#mobile-scrol').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 1000);
+        });
+      });
+    </script>
+    <script src="./modal.js"></script>
   </body>
 </html>

@@ -28,6 +28,11 @@
     margin-bottom: 50px;
   }
 }
+@media screen and (min-width: 767.98px) and (max-width: 1279.98px) {
+  .reviews-card-box {
+    margin-left: 32px;
+  }
+}
 .reviews-card-box {
 }
 .reviews-list {
@@ -35,17 +40,21 @@
   gap: 20px;
 }
 .reviews-item {
-  min-width: 335px;
   padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
+}
+@media screen and (max-width: 767.98px) {
+  .reviews-item {
+    max-width: 335px;
+  }
 }
 @media screen and (min-width: 768px) {
   .reviews-item {
     width: 640px;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279.98px) {
   .reviews-item:last-child {
     display: none;
   }
@@ -81,10 +90,14 @@
   height: 16px;
 }
 .text-reviews {
-  min-width: 295px;
   font-size: 14px;
   font-style: normal;
   line-height: 1.29;
+}
+@media screen and (max-width: 767.98px) {
+  .text-reviews {
+    max-width: 295px;
+  }
 }
 .icon-student {
   max-height: 56px;

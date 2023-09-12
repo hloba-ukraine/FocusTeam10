@@ -50,6 +50,12 @@ img {
   padding-right: 20px;
   margin: 0 auto;
 }
+@media screen and (max-width: 375px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -62,6 +68,22 @@ img {
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+}
+.container-bg {
+  min-width: 320px;
+  max-width: 375px;
+
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container-bg {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-bg {
+    max-width: 1280px;
   }
 }
 /*Basis styles*/
