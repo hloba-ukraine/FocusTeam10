@@ -20,11 +20,11 @@
     />
     
     <title>Focus.Frame 2.0</title>
-    <script type="module" crossorigin src="/FocusTeam10/assets/index-0aeb3642.js"></script>
-    <link rel="stylesheet" href="/FocusTeam10/assets/index-650c9023.css">
+    <script type="module" crossorigin src="/FocusTeam10/assets/index-4a6a2990.js"></script>
+    <link rel="stylesheet" href="/FocusTeam10/assets/index-c5127922.css">
   </head>
   <body>
-    <div class="headar-hero-bg">
+    <div class="headar-hero-bg container-bg">
       <!--header-->
 <header class="header-section main-background" id="header">
   <div class="header-container container" id="menu-scrol">
@@ -45,6 +45,7 @@
         <div class="burger-wrapper">
           <button
             class="menu-toggle-burger js-open-menu"
+            data-modal-open
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
@@ -425,8 +426,7 @@
           <div class="item-box">
             <div class="personal-iformation">
               <img
-                srcset=""
-                src="/FocusTeam10/assets/user-6ac3a0d1.png"
+                src="/FocusTeam10/assets/user@2-28d1de2f.png"
                 alt="user"
                 class="icon-student"
                 width="56"
@@ -437,12 +437,7 @@
                   <p class="name">Abraham Baker</p>
                   <p class="student">Student</p>
                 </div>
-                <img
-                  srcset="./img/stars x1, ./img/stars@2 x2"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAUCAYAAABcbhl9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANlSURBVHgB7Vk9SFtRFD73JgYTKAR0SRZfFweXpBQKXWxelOoi6pg6NAlWyGTF4qqzEKKT0FITwWq3troIoi8dXApCMtalr0uKWyClopB3e04wIYnJ+0EdSu8H+t6999zvHfjOuT8nABL/H7SP2fmjnfev4Z4g+c0RiUTC9GfHllkZaLtZRQjxA1/LzMseqtOJMtwhJL81VFUlfl3TNNXKloM1lq+ffuOPcR9RKPlNEI1G4z09PZ4HiNHR0YiVvWmGNkVfHXcahZLfGpSdoVBoKxAIlA4ODmJWWWqVoctt7buOQslvgnp2ZjKZ/aWlpVM7WdrIUIo2cIEfqhDG3pAhwM+EiHeYUxac5aFqFDnnOrZ16IWCVVRKfntZi4cfxeVyhTHzKfvnKTtJUBpbXV19jFmaYoxtIXcBn+XDw8NC8/yaoEc72U8MxBTcBgy+RGPJjhyS35x/ZGRkyjCMDL4qHo+n5PP5ztxu9+++vr7vGxsbu822i4uLE+fn54OVSmXw8vIycHV1FcRuEnf9+Pg45yYjjh8TAm7lMBMs121M8pvzV6tVEgSCweDu9vZ2GkyQTqf3m9vJZHJO1/XnGBD5mq/0T40lcgzYNAhwvpnjHHRGVV8kPnczkfzm/Pl8XsflVS2VSk9JILCJazGf0FzioL6WU672IRsWIDTs9dtiJGcBnZ1JFOyYS35z4P7pR/E1RVG+bW5uvjWzbROzEWgtp1z6MDlgNxKdOCv5rUHCkEAkVCqVinWzo320k5gE3slpsIeyE2clvz2QQJilen9//y8zO7QptItJuCGols36bS4p/tpR3iEkvzXoyjIwMFDqNj48PHyKNpFOYzcLC714z7IL7sBW8jtBeHZ29oxeaHkdHx/fGxsb21tYWJigvsnJSRJboT23faK7vcMQRpg1n5Vwv8CDwDqmuIKtly22VUMBh5D85qBfVbxe7xkVEU5OTubwvlnBbJyhsWKxmEFhXw0NDb2j+yreQxXsblnWbwjKgT9DBxuOch9fi04na2s1LiErSL5Sd5wzHgKHkPzmwCqRcnFxMUh1W+R6g/tkvmn4EQoeR2Gp5BjEahGtAOaCYlx9FcB+cs7WsLKhN4/gfYza8brjGK1FcAzJbwYqMhBVm5ANYHcOHzkSFr+RBwkJiX8IfwH8UBHty2JATAAAAABJRU5ErkJggg=="
-                  alt=""
-                  class="stars"
-                />
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAUCAYAAABcbhl9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANlSURBVHgB7Vk9SFtRFD73JgYTKAR0SRZfFweXpBQKXWxelOoi6pg6NAlWyGTF4qqzEKKT0FITwWq3troIoi8dXApCMtalr0uKWyClopB3e04wIYnJ+0EdSu8H+t6999zvHfjOuT8nABL/H7SP2fmjnfev4Z4g+c0RiUTC9GfHllkZaLtZRQjxA1/LzMseqtOJMtwhJL81VFUlfl3TNNXKloM1lq+ffuOPcR9RKPlNEI1G4z09PZ4HiNHR0YiVvWmGNkVfHXcahZLfGpSdoVBoKxAIlA4ODmJWWWqVoctt7buOQslvgnp2ZjKZ/aWlpVM7WdrIUIo2cIEfqhDG3pAhwM+EiHeYUxac5aFqFDnnOrZ16IWCVVRKfntZi4cfxeVyhTHzKfvnKTtJUBpbXV19jFmaYoxtIXcBn+XDw8NC8/yaoEc72U8MxBTcBgy+RGPJjhyS35x/ZGRkyjCMDL4qHo+n5PP5ztxu9+++vr7vGxsbu822i4uLE+fn54OVSmXw8vIycHV1FcRuEnf9+Pg45yYjjh8TAm7lMBMs121M8pvzV6tVEgSCweDu9vZ2GkyQTqf3m9vJZHJO1/XnGBD5mq/0T40lcgzYNAhwvpnjHHRGVV8kPnczkfzm/Pl8XsflVS2VSk9JILCJazGf0FzioL6WU672IRsWIDTs9dtiJGcBnZ1JFOyYS35z4P7pR/E1RVG+bW5uvjWzbROzEWgtp1z6MDlgNxKdOCv5rUHCkEAkVCqVinWzo320k5gE3slpsIeyE2clvz2QQJilen9//y8zO7QptItJuCGols36bS4p/tpR3iEkvzXoyjIwMFDqNj48PHyKNpFOYzcLC714z7IL7sBW8jtBeHZ29oxeaHkdHx/fGxsb21tYWJigvsnJSRJboT23faK7vcMQRpg1n5Vwv8CDwDqmuIKtly22VUMBh5D85qBfVbxe7xkVEU5OTubwvlnBbJyhsWKxmEFhXw0NDb2j+yreQxXsblnWbwjKgT9DBxuOch9fi04na2s1LiErSL5Sd5wzHgKHkPzmwCqRcnFxMUh1W+R6g/tkvmn4EQoeR2Gp5BjEahGtAOaCYlx9FcB+cs7WsLKhN4/gfYza8brjGK1FcAzJbwYqMhBVm5ANYHcOHzkSFr+RBwkJiX8IfwH8UBHty2JATAAAAABJRU5ErkJggg==" alt="" class="stars" />
               </div>
             </div>
           </div>
@@ -457,8 +452,7 @@
           <div class="item-box">
             <div class="personal-iformation">
               <img
-                srcset=""
-                src="/FocusTeam10/assets/user2-928cb6f2.png"
+                src="/FocusTeam10/assets/user2@2-833fa325.png"
                 alt="user2"
                 class="icon-student"
                 width="56"
@@ -469,12 +463,7 @@
                   <p class="name">Amanda Lowery</p>
                   <p class="student">Student</p>
                 </div>
-                <img
-                  srcset="./img/stars x1, ./img/stars@2 x2"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAUCAYAAABcbhl9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANlSURBVHgB7Vk9SFtRFD73JgYTKAR0SRZfFweXpBQKXWxelOoi6pg6NAlWyGTF4qqzEKKT0FITwWq3troIoi8dXApCMtalr0uKWyClopB3e04wIYnJ+0EdSu8H+t6999zvHfjOuT8nABL/H7SP2fmjnfev4Z4g+c0RiUTC9GfHllkZaLtZRQjxA1/LzMseqtOJMtwhJL81VFUlfl3TNNXKloM1lq+ffuOPcR9RKPlNEI1G4z09PZ4HiNHR0YiVvWmGNkVfHXcahZLfGpSdoVBoKxAIlA4ODmJWWWqVoctt7buOQslvgnp2ZjKZ/aWlpVM7WdrIUIo2cIEfqhDG3pAhwM+EiHeYUxac5aFqFDnnOrZ16IWCVVRKfntZi4cfxeVyhTHzKfvnKTtJUBpbXV19jFmaYoxtIXcBn+XDw8NC8/yaoEc72U8MxBTcBgy+RGPJjhyS35x/ZGRkyjCMDL4qHo+n5PP5ztxu9+++vr7vGxsbu822i4uLE+fn54OVSmXw8vIycHV1FcRuEnf9+Pg45yYjjh8TAm7lMBMs121M8pvzV6tVEgSCweDu9vZ2GkyQTqf3m9vJZHJO1/XnGBD5mq/0T40lcgzYNAhwvpnjHHRGVV8kPnczkfzm/Pl8XsflVS2VSk9JILCJazGf0FzioL6WU672IRsWIDTs9dtiJGcBnZ1JFOyYS35z4P7pR/E1RVG+bW5uvjWzbROzEWgtp1z6MDlgNxKdOCv5rUHCkEAkVCqVinWzo320k5gE3slpsIeyE2clvz2QQJilen9//y8zO7QptItJuCGols36bS4p/tpR3iEkvzXoyjIwMFDqNj48PHyKNpFOYzcLC714z7IL7sBW8jtBeHZ29oxeaHkdHx/fGxsb21tYWJigvsnJSRJboT23faK7vcMQRpg1n5Vwv8CDwDqmuIKtly22VUMBh5D85qBfVbxe7xkVEU5OTubwvlnBbJyhsWKxmEFhXw0NDb2j+yreQxXsblnWbwjKgT9DBxuOch9fi04na2s1LiErSL5Sd5wzHgKHkPzmwCqRcnFxMUh1W+R6g/tkvmn4EQoeR2Gp5BjEahGtAOaCYlx9FcB+cs7WsLKhN4/gfYza8brjGK1FcAzJbwYqMhBVm5ANYHcOHzkSFr+RBwkJiX8IfwH8UBHty2JATAAAAABJRU5ErkJggg=="
-                  alt=""
-                  class="stars"
-                />
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAUCAYAAABcbhl9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANlSURBVHgB7Vk9SFtRFD73JgYTKAR0SRZfFweXpBQKXWxelOoi6pg6NAlWyGTF4qqzEKKT0FITwWq3troIoi8dXApCMtalr0uKWyClopB3e04wIYnJ+0EdSu8H+t6999zvHfjOuT8nABL/H7SP2fmjnfev4Z4g+c0RiUTC9GfHllkZaLtZRQjxA1/LzMseqtOJMtwhJL81VFUlfl3TNNXKloM1lq+ffuOPcR9RKPlNEI1G4z09PZ4HiNHR0YiVvWmGNkVfHXcahZLfGpSdoVBoKxAIlA4ODmJWWWqVoctt7buOQslvgnp2ZjKZ/aWlpVM7WdrIUIo2cIEfqhDG3pAhwM+EiHeYUxac5aFqFDnnOrZ16IWCVVRKfntZi4cfxeVyhTHzKfvnKTtJUBpbXV19jFmaYoxtIXcBn+XDw8NC8/yaoEc72U8MxBTcBgy+RGPJjhyS35x/ZGRkyjCMDL4qHo+n5PP5ztxu9+++vr7vGxsbu822i4uLE+fn54OVSmXw8vIycHV1FcRuEnf9+Pg45yYjjh8TAm7lMBMs121M8pvzV6tVEgSCweDu9vZ2GkyQTqf3m9vJZHJO1/XnGBD5mq/0T40lcgzYNAhwvpnjHHRGVV8kPnczkfzm/Pl8XsflVS2VSk9JILCJazGf0FzioL6WU672IRsWIDTs9dtiJGcBnZ1JFOyYS35z4P7pR/E1RVG+bW5uvjWzbROzEWgtp1z6MDlgNxKdOCv5rUHCkEAkVCqVinWzo320k5gE3slpsIeyE2clvz2QQJilen9//y8zO7QptItJuCGols36bS4p/tpR3iEkvzXoyjIwMFDqNj48PHyKNpFOYzcLC714z7IL7sBW8jtBeHZ29oxeaHkdHx/fGxsb21tYWJigvsnJSRJboT23faK7vcMQRpg1n5Vwv8CDwDqmuIKtly22VUMBh5D85qBfVbxe7xkVEU5OTubwvlnBbJyhsWKxmEFhXw0NDb2j+yreQxXsblnWbwjKgT9DBxuOch9fi04na2s1LiErSL5Sd5wzHgKHkPzmwCqRcnFxMUh1W+R6g/tkvmn4EQoeR2Gp5BjEahGtAOaCYlx9FcB+cs7WsLKhN4/gfYza8brjGK1FcAzJbwYqMhBVm5ANYHcOHzkSFr+RBwkJiX8IfwH8UBHty2JATAAAAABJRU5ErkJggg==" alt="" class="stars" />
               </div>
             </div>
           </div>
@@ -491,37 +480,39 @@
 </section>
 
       <!--Mobile-menu-->
-<div
-  class="js-menu-container mobile-menu-background menu-container"
-  id="mobile-menu"
->
-  <button class="menu-toggle js-close-menu">
-    <svg class="close-icon" width="40" height="40">
-      <use href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-x"></use>
-    </svg>
-  </button>
-  <ul class="mobile-menu-list">
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link strong" href="#about-us">ABOUT US</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#our-courses">OUR COURSES</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#our-mentors">OUR MENTORS</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#reviews">REVIEWS</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#contacts">CONTACTS</a>
-    </li>
-  </ul>
+<div class="backdrop is-hidden" data-modal>
+  <div
+    class="js-menu-container mobile-menu-background menu-container"
+    id="mobile-menu"
+  >
+    <button class="menu-toggle js-close-menu" data-modal-close>
+      <svg class="close-icon" width="40" height="40">
+        <use href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-x"></use>
+      </svg>
+    </button>
+    <ul class="mobile-menu-list" id="mobile-scrol">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link strong" href="#about-us">ABOUT US</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#our-courses">OUR COURSES</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#our-mentors">OUR MENTORS</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#reviews">REVIEWS</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#contacts">CONTACTS</a>
+      </li>
+    </ul>
+  </div>
 </div>
 
     </main>
     <!--footer-->
-<footer class="footer" id="footer">
+<footer class="footer container-bg" id="footer">
   <div class="container">
     <div class="footer-content-wrap">
       <div class="logo-address-wrapper">
@@ -671,5 +662,16 @@
         });
       });
     </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#mobile-scrol').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 1000);
+        });
+      });
+    </script>
+    <script src="./modal.js"></script>
   </body>
 </html>
