@@ -45,7 +45,6 @@
         <div class="burger-wrapper">
           <button
             class="menu-toggle-burger js-open-menu"
-            data-modal-open
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
@@ -480,35 +479,33 @@
 </section>
 
       <!--Mobile-menu-->
-<div class="backdrop is-hidden" data-modal>
-  <div
-    class="js-menu-container mobile-menu-background menu-container"
-    data-modal
-    id="mobile-menu"
-  >
-    <button class="menu-toggle js-close-menu" data-modal-close>
-      <svg class="close-icon" width="40" height="40">
-        <use href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-x"></use>
-      </svg>
-    </button>
-    <ul class="mobile-menu-list" id="mobile-scrol">
-      <li class="mobile-menu-item">
-        <a class="mobile-menu-link strong" href="#about-us">ABOUT US</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a class="mobile-menu-link" href="#our-courses">OUR COURSES</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a class="mobile-menu-link" href="#our-mentors">OUR MENTORS</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a class="mobile-menu-link" href="#reviews">REVIEWS</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a class="mobile-menu-link" href="#contacts">CONTACTS</a>
-      </li>
-    </ul>
-  </div>
+
+<div
+  class="js-menu-container mobile-menu-background menu-container"
+  id="mobile-menu"
+>
+  <button class="menu-toggle js-close-menu" data-modal-close>
+    <svg class="close-icon" width="40" height="40">
+      <use href="/FocusTeam10/assets/symbol-defs-a6d93cd6.svg#icon-x"></use>
+    </svg>
+  </button>
+  <ul class="mobile-menu-list" id="mobile-scrol">
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link strong" href="#about-us">ABOUT US</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link" href="#our-courses">OUR COURSES</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link" href="#our-mentors">OUR MENTORS</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link" href="#reviews">REVIEWS</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link" href="#contacts">CONTACTS</a>
+    </li>
+  </ul>
 </div>
 
     </main>
@@ -619,7 +616,6 @@
 
     <!--scripts-->
     
-    <script src="./modal.js"></script>
 
     <script
       type="text/javascript"
