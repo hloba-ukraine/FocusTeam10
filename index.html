@@ -20,8 +20,8 @@
     />
     
     <title>Focus.Frame 2.0</title>
-    <script type="module" crossorigin src="/FocusTeam10/assets/index-96556cc4.js"></script>
-    <link rel="stylesheet" href="/FocusTeam10/assets/index-371929e2.css">
+    <script type="module" crossorigin src="/FocusTeam10/assets/index-0aeb3642.js"></script>
+    <link rel="stylesheet" href="/FocusTeam10/assets/index-650c9023.css">
   </head>
   <body>
     <div class="headar-hero-bg">
@@ -83,7 +83,7 @@
 
 <section class="main-background" id="hero">
   <div class="container hero-section">
-    <div>
+    <div class="hero-info">
       <h1 class="hero-title">
         Discover the magic of
         <span class="hero-title-word">photography</span>
@@ -114,7 +114,7 @@
             height="44"
           />
         </picture>
-        <div class="box-students">
+        <div class="box-students" id="hero-scrol">
           <a class="text-students" href="#reviews">Our happy students</a>
           <span
             ><svg class="hero-icon" width="18" height="8.66">
@@ -163,15 +163,15 @@
     <!-- Loads the specified .html file -->
     <main>
       <section class="main-background" id="advertisement">
-  <div class="advertisement-section container">
-    <div class="advertisement-box">
-      <h2 class="advertisement-title">
-        <span class="span-advertisment">Master</span> your photography
-        <span class="span-advertisment">skills with us!</span>
+  <div class="ertisement-section container">
+    <div class="ertisement-box">
+      <h2 class="ertisement-title">
+        <span class="span-ertisment">Master</span> your photography
+        <span class="span-ertisment">skills with us!</span>
       </h2>
-      <h2 class="advertisement-title">
-        <span class="span-advertisment">Master</span> your photography
-        <span class="span-advertisment">skills with us!</span>
+      <h2 class="ertisement-title">
+        <span class="span-ertisment">Master</span> your photography
+        <span class="span-ertisment">skills with us!</span>
       </h2>
     </div>
   </div>
@@ -351,32 +351,37 @@
         message and we'll get back to you shortly.
       </p>
 
-      <form
-        class="sign-up-form"
-        name="sign-up-form"
-        autocomplete="on"
-        novalidate
-      >
-        <input
-          class="sign-up-input"
-          type="text"
-          name="username"
-          placeholder="Enter your name"
-        />
-        <input
-          class="sign-up-input"
-          type="text"
-          name="email_address"
-          placeholder="Enter your email"
-        />
-        <textarea
-          class="sign-up-textarea"
-          name="message"
-          rows="6"
-          placeholder="Message"
-        ></textarea>
+      <form class="sign-up-form" name="sign-up-form" autocomplete="on">
+        <label class="label-name" for="username">
+          <input
+            class="sign-up-input"
+            type="text"
+            name="username"
+            placeholder="Enter your name"
+            required
+          />
+        </label>
+        <label class="label-name" for="email_address">
+          <input
+            class="sign-up-input"
+            type="email"
+            name="email_address"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <label class="label-message" for="message">
+          <textarea
+            class="sign-up-textarea"
+            name="message"
+            rows="6"
+            placeholder="Message"
+          ></textarea>
+        </label>
+
+        <button type="submit" class="sign-up-btn">Send</button>
       </form>
-      <button type="submit" class="sign-up-btn">Send</button>
+
       <p class="sign-up-submit">
         By clicking on “Send” button, you agree to our
         <a
@@ -649,6 +654,16 @@
     <script type="text/javascript">
       $(document).ready(function () {
         $('#card-box-scrol').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 1000);
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#hero-scrol').on('click', 'a', function (event) {
           event.preventDefault();
           var id = $(this).attr('href'),
             top = $(id).offset().top;
