@@ -84,16 +84,6 @@
         });
       });
     </script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#mobile-scrol').on('click', 'a', function (event) {
-          event.preventDefault();
-          var id = $(this).attr('href'),
-            top = $(id).offset().top;
-          $('body,html').animate({ scrollTop: top }, 1000);
-        });
-      });
-    </script>
-    <script src="../modal.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>
