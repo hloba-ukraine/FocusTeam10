@@ -140,6 +140,7 @@
 }
 .our-courses-arrow {
   stroke: #777777;
+  fill: rgba(0, 0, 0, 0);
 }
 .our-courses-item-title {
   font-size: 28px;

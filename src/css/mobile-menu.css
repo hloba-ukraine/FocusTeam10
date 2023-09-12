@@ -40,7 +40,7 @@
   min-width: 55vw;
   height: 100vh;
   padding: 180px 20px 20px;
-  background-color: #BEA69E;
+  background-color: #bea69e;
   background-image: url(./img/img.jpg/modal/Rectangle6-modal-mob.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -57,8 +57,8 @@
 }
 
 @media (min-device-paxel-ratio: 2),
-(min-resolution: 192),
-(min-resolution: 2dppx) {
+  (min-resolution: 192),
+  (min-resolution: 2dppx) {
   .menu-container {
     background-image: url(../img/img.jpg/modal/Rectangle6-modal-mob@2x.jpg);
   }
@@ -70,8 +70,8 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .menu-container {
       background-image: url(../img/img.jpg/modal/Rectangle6-modal-tab@2x.jpg);
     }
@@ -118,4 +118,7 @@
 
 .strong {
   font-weight: 700;
+}
+.close-icon {
+  stroke: var(--black);
 }
