@@ -666,6 +666,16 @@
         });
       });
     </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#mobile-scrol').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 1000);
+        });
+      });
+    </script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
