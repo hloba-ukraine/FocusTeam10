@@ -44,6 +44,8 @@
     display: inline-flex;
     align-items: flex-start;
     gap: 93px;
+    padding-left: 33px;
+    padding-right: 33px;
   }
 
   .mentors-name {

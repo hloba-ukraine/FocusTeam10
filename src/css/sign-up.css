@@ -96,6 +96,7 @@
   font-size: 14px;
   line-height: 1.25;
   margin-bottom: 40px;
+  resize: none;
 }
 
 .sign-up-btn {
